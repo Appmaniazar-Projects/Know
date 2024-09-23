@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="overlay">
             <h3>${category.title}</h3>
             ${category.description ? `<p>${category.description}</p>` : ''}
-            <a href="${category.url}" class="view-button">View your roots</>
+            <a href="${category.url}" class="view-button">Learn More</>
           </div>
         `;
   
