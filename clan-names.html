@@ -12,7 +12,7 @@
     <meta property="og:url" content="https://yourwebsite.com">
     <title>uVelaphi - Discover Your Roots</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
 
     <style>
@@ -20,7 +20,7 @@
             --primary-color: #260101;
             --secondary-color: #593A29;
             --background-color: #f4f6f8;
-            --text-color: #34495e;
+            --text-color: #593A29;
             --card-background: #ffffff;
             --modal-background: rgba(0, 0, 0, 0.8);
         }
@@ -28,7 +28,7 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: var(--background-color);
-            color: var(--text-color);
+            
             margin: 0;
             padding: 20px;
             line-height: 1.6;
@@ -127,7 +127,7 @@
         }
 
         .expand-btn:hover {
-            background-color: #27ae60;
+            background-color: #260101;
         }
 
 
@@ -211,7 +211,7 @@
         }
 
         #copyBtn:hover {
-            background-color: #27ae60;
+            background-color: #260101;
         }
     </style>
 </head>
@@ -239,7 +239,7 @@
             <ul class="nav-links">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../clan-names.html">Clan Names</a></li>
-                <li><a href="../resources.html">Resources</a></li>
+                <!-- <li><a href="../resources.html">Resources</a></li> -->
                 <li><a href="#footer">Contact Us</a></li>
                 <li class="dropdown">
                     <button id="dropdownButton" class="dropdown-trigger" aria-haspopup="true" aria-expanded="false">
@@ -256,9 +256,7 @@
                 <i class="fas fa-bars"></i>
             </div>
         </nav>
-        <h1>
 
-        </h1>
     </header>
     <div class="container">
         <h1>African Tribes and Clans</h1>
@@ -387,7 +385,7 @@
     <script>
         const tribalData = [
             {
-                name: "Zulu Tribe",
+                name: "AmaZulu",
                 clans: [
                     {
                         name: "Buthelezi",
@@ -444,7 +442,7 @@
 
             },
             {
-                name: "Xhosa Tribe",
+                name: "AmaXhosa",
                 clans: [
                     { name: "Mandela", info: "Famous political lineage" },
                     { name: "Qamata", info: "Spiritual and cultural guardians" },
@@ -452,7 +450,42 @@
                 ]
             },
             {
+                name: "BaSotho",
+                clans: [
+                    { name: "Mokoena", info: "Valued for their cultural preservation" },
+                    { name: "Phiri", info: "Known for their agricultural skills" }
+                ]
+            },
+            {
+                name: "Va Venda",
+                clans: [
+                    { name: "Mokoena", info: "Valued for their cultural preservation" },
+                    { name: "Phiri", info: "Known for their agricultural skills" }
+                ]
+            },
+            {
+                name: "AmaNdebele",
+                clans: [
+                    { name: "Mokoena", info: "Valued for their cultural preservation" },
+                    { name: "Phiri", info: "Known for their agricultural skills" }
+                ]
+            },
+            {
                 name: "Sotho Tribe",
+                clans: [
+                    { name: "Mokoena", info: "Valued for their cultural preservation" },
+                    { name: "Phiri", info: "Known for their agricultural skills" }
+                ]
+            },
+            {
+                name: "Sotho Tribe",
+                clans: [
+                    { name: "Mokoena", info: "Valued for their cultural preservation" },
+                    { name: "Phiri", info: "Known for their agricultural skills" }
+                ]
+            },
+            {
+                name: "BaPedi",
                 clans: [
                     { name: "Mokoena", info: "Valued for their cultural preservation" },
                     { name: "Phiri", info: "Known for their agricultural skills" }

@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Data for categories
     const categories = [
       { title: 'History', description: 'Discover African history.', image: './images/History.png', url: './files/history.html' },
-      { title: 'Geography', image: './images/Geography and teritory.png', url: './files/geography.html' },
+      { title: 'Territories', image: './images/Geography and teritory.png', url: './files/geography.html' },
       { title: 'Cultures', image: './images/Cultures.png', url: './files/cultures.html' },
       { title: 'Languages', image: './images/Langauges.png', url: './files/langauges.html' },
       { title: 'Beliefs', image: './images/Beliefs.png', url: './files/beliefs.html' },
@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
         card.innerHTML = `
           <img class="lazy-load" data-src="${category.image}" alt="${category.title}">
           <div class="overlay">
-            <h3>${category.title}</h3>
+            <h1>${category.title}</h1>
             ${category.description ? `<p>${category.description}</p>` : ''}
             <a href="${category.url}" class="view-button">Learn More</>
           </div>

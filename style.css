@@ -78,7 +78,7 @@ header {
     backdrop-filter: blur(10px);
     /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
     transition: all var(--transition-speed);
-  }
+}
 
   nav {
     display: flex;
@@ -638,9 +638,10 @@ h1 {
 }
 
 /* Common text styling inside the overlay */
-.grid .overlay h3, .culture-grid .overlay h2 {
-    font-size: 1.5rem;
+.grid .overlay h1, .culture-grid .overlay h2 {
+    font-size: 3.5rem;
     font-family: 'Poppins', sans-serif;
+    color: #fff;
     margin: 0;
 }
 
